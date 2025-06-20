@@ -139,11 +139,14 @@ const Hero = () => {
           <div className="space-y-8">
             {/* Profile Picture */}
             <div className="relative mx-auto lg:mx-0 w-fit">
-              <div className="relative">
-                <div className="w-80 h-80 mx-auto rounded-3xl bg-gradient-to-br from-primary via-accent to-secondary border-4 border-card shadow-2xl flex items-center justify-center overflow-hidden group">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 animate-pulse"></div>
-                  <span className="relative text-6xl font-bold text-primary-foreground z-10">NV</span>
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-accent/20 group-hover:from-primary/30 group-hover:to-accent/30 transition-all duration-500"></div>
+              <div className="relative group">
+                <div className="w-80 h-80 mx-auto rounded-3xl border-4 border-card shadow-2xl overflow-hidden">
+                  <img 
+                    src="https://drive.google.com/uc?export=view&id=1UxRqvK0_yf7pLjTC43-tYtMsIa66cOS6"
+                    alt="Neha Verma - Senior Backend Engineer"
+                    className="w-full h-full object-cover object-center"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-accent/10 group-hover:from-primary/20 group-hover:to-accent/20 transition-all duration-500"></div>
                 </div>
                 <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
               </div>
