@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -47,6 +48,12 @@ const Navigation = () => {
                 className="text-foreground hover:text-primary transition-colors duration-200"
               >
                 Skills
+              </button>
+              <button
+                onClick={() => scrollToSection('learning')}
+                className="text-foreground hover:text-primary transition-colors duration-200"
+              >
+                Learning
               </button>
               <button
                 onClick={() => scrollToSection('projects')}
@@ -103,6 +110,12 @@ const Navigation = () => {
                 className="block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200"
               >
                 Skills
+              </button>
+              <button
+                onClick={() => scrollToSection('learning')}
+                className="block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200"
+              >
+                Learning
               </button>
               <button
                 onClick={() => scrollToSection('projects')}
